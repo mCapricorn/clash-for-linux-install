@@ -70,5 +70,5 @@ EOF
 systemctl daemon-reload
 
 systemctl enable clash >/dev/null 2>&1 && echo "clash: 设置自启成功!" || echo "clash: 设置自启失败!"
-
+source ~/.bashrc
 clashon && clashui
